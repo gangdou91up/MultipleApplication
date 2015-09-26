@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <RadioButton
+        android:id="@+id/id_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:button="@null"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/radio"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+    <TextView
+        android:id="@+id/id_name"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:text="姓名"/>
+
+
+</LinearLayout>
